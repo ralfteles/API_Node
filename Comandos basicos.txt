@@ -1,0 +1,24 @@
+- Iniciando o projeto
+npm init -y
+
+- Express
+npm install http express debug --save
+obs: foi instalado as dependencias debug, express e http
+
+- Nodemon
+ - Para rodar api - comando: npm install nodemon --save-dev
+
+- Rodando API
+nodemon server.js
+
+- Configurar no package.js == "start": "node ./bin/server.js" para startar o projeto
+  e no console digitar npm start 
+
+- Body Parser (Converter o corpo da requisição para Json)
+npm install body-parser --save
+
+-- MongoDB --
+- banco online:mongoLab
+ - npm install mongoose --save (Para configurar o Mongodb na aplicação)
+
+
